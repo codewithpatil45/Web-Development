@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DentyTech — Pure HTML & CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <!-- Site wrapper ensures content is centered with generous whitespace -->
+    <div class="page">
+      <header class="site-header" role="banner">
+        <div class="header-left">
+          <a class="pill" href="#">Menu</a>
+        </div>
+        <div class="header-logo">
+          <span aria-hidden="true" class="logo-dot"></span>
+          <span class="logo-text">DENTYTECH</span>
+        </div>
+        <nav class="header-right" aria-label="Account">
+          <a class="pill pill--ghost" href="#">Log In</a>
+          <a class="pill" href="#">Sign Up</a>
+        </nav>
+      </header>
+
+      <main class="hero" role="main">
+        <h1 class="hero-title" aria-label="Our Advantages">
+          <span>OUR</span> <span>ADVANTAGES</span>
+        </h1>
+
+        <!-- Stacked image cards built with CSS only -->
+        <section class="card-stack" aria-label="Showcase">
+          <figure class="card card--back" aria-hidden="true">
+            <img src="20250330_101623.jpg" alt="" loading="lazy">
+          </figure>
+          <figure class="card card--mid" aria-hidden="true">
+            <img src="20250330_101607.jpg"" loading="lazy">
+          </figure>
+          <figure class="card card--front">
+            <img src="20250330_101604.jpg" alt="Smiling person with perfect teeth">
+            <figcaption class="badge">
+              <span class="badge-icon" aria-hidden="true">⚙︎</span>
+              <span>Advanced Technology</span>
+            </figcaption>
+          </figure>
+        </section>
+
+        <div class="hero-meta">
+          <div class="meta-left">Your Smile, Our Passion</div>
+          <div class="meta-right">Best Start Up of 2023</div>
+        </div>
+
+        <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+          <span class="chevron" aria-hidden="true"></span>
+        </a>
+      </main>
+
+      <section id="about" class="about">
+        <h2>About DentyTech</h2>
+        <p>
+          This demo page is built with <strong>only HTML and CSS</strong>. No JavaScript is
+          used for layout, animations, or interactivity. Resize the window to see the
+          responsive design.
+        </p>
+      </section>
+
+      <footer class="site-footer" role="contentinfo">
+        <p>© <span id="year">2025</span> DentyTech. All rights reserved.</p>
+      </footer>
+    </div>
+  </body>
+  </html>
