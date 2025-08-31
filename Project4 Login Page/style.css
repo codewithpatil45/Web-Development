@@ -1,14 +1,36 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Montserrat:wght@100..900&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
 }
-html, body{
+html, body {
     height: 100%;
     width: 100%;
+}
+nav {
+    padding: 20px 100px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    background: #fff;
+}
+.nav-brand {
+    font-family: "Fjalla One", sans-serif;
+    margin-right: 40px;
+}
+.nav-links {
+    display: flex;
+    gap: 30px;
+    font-size: 22px;
+   margin-left: 25%;
+}
+#icon{
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+    
+    padding: 0 300px;
 }
