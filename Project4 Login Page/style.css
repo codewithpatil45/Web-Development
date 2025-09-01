@@ -55,3 +55,24 @@ body {
   font-weight: bold;
   border-bottom: 2px solid #10aaf1;
 }
+.main{
+  background: rgb(170, 163, 163);
+  height: 100vh;
+}
+.logo{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 500px;
+}
+.logo i{
+  padding: 233px 33px;
+  margin-bottom: -444px;
+  font-size: 20px;
+} 
+.text{
+  display: flex;
+  position: relative;
+  margin-left: 15vh;
+  margin-top: -54vb;
+  font-size: 20px;
+}
