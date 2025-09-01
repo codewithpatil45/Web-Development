@@ -1,63 +1,57 @@
-/* Google Fonts: prefer <link> in HTML for performance; @import kept here if needed */
-/* In HTML head, use:
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
-*/
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-/* Reset */
-* {
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: #fff;
+  padding: 0 32px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+  border-bottom: 3px solid #eaeaea;
+}
+
+.navbar-logo {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-right: 36px;
+  color: #222;
+  border: 2px solid #333;
+  padding: 4px 12px;
+  border-radius: 4px;
+}
+
+.navbar-menu {
+  display: flex;
+  gap: 36px;
+  list-style: none;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  text-align: center;
+  height: 75px;
 }
 
-html, body {
-  height: 100%;
-  width: 100%;
+.navbar-menu li {
+  position: relative;
+   margin: auto ;
+   text-align: center;
+    margin-left: 0 50px;
+
 }
 
-/* Nav container */
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;   /* space between brand, links, icons */
-  gap: 24px;                        /* space between the three regions */
-  padding: 16px 24px;               /* reduced from 20px 100px for responsiveness */
-  background: #fff;
-  font-family: "Montserrat", sans-serif;
+.navbar-menu a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+
 }
 
-/* Brand on the left */
-.nav-brand {
-  font-family: "Fjalla One", sans-serif;
-  font-size: 28px;
-  line-height: 1;
-  white-space: nowrap;              /* keep brand on one line */
-  /* Let it take only needed space */
+.navbar-menu .active {
+  color: #10aaf1;
+  font-weight: bold;
+  border-bottom: 2px solid #10aaf1;
 }
-
-/* Nav links area in the middle/right */
-.nav-links {
-  display: flex;
-  align-items: center;
-  gap: 24px;                        /* consistent spacing between links */
-  font-size: 18px;
-  flex: 1 1 auto;                   /* allow links group to grow/shrink */
-  justify-content: center;          /* center links within available space */
-  min-width: 0;                     /* prevent overflow in flex */
-}
-
-/* Icons area on the right */
-#icon {
-  display: flex;
-  align-items: center;
-  gap: 16px;                        /* reasonable spacing between icons */
-  font-size: 22px;
-  flex: 0 0 auto;                   /* keep intrinsic width */
-  padding: 0;                       /* remove massive horizontal padding */
-}
-
-
-.nav-brand { margin-right: auto; }  
-
