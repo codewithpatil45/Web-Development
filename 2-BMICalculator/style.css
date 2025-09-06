@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    
+   
+}
+#nav1{
+    
+    display: flex inline;
+    text-align: center;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    
+    margin: auto;
+}
+#nav1:hover{
+      transition: transform 0.3s ease-in-out;
+        transform: scale(1.1);
+}
+h2{
+    padding: 20px 50px;
+    text-align: center;
+    justify-content: center;
+}
+main{
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+input{
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+    text-align: center;
+}
+button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+#weight-guide{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    font-size: 25px;
+}
