@@ -1,0 +1,102 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html body{
+    background: linear-gradient(105deg, #e0e0e0 50%, #000 50%);
+}
+/* Navbar */
+.navbar {
+  width: 100%;
+  /* background: #e3e3e3; */
+  padding: 15px 60px;
+  display: flex;
+  justify-content: space-between; /* logo left, links right */
+  align-items: center;
+  height: 66px;
+}
+
+/* Logo */
+.logo img {
+  height: 40px; /* adjust size */
+  width: auto;
+  color: white;
+}
+
+/* Nav Links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fdfeff;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ffcc00;
+}
+
+/* Contact Button */
+.contact-btn {
+  background: white;
+  color: black;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.contact-btn:hover {
+  background: #ffcc00;
+  color: black;
+}
+.hero {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 100px;
+
+      /* Background with diagonal split */
+      /* background: linear-gradient(105deg, #e0e0e0 50%, #000 50%); */
+    }
+    .hero .text-section p{
+        font-size: 30px
+    }
+    #hi{
+        /* background: #825b5b; */
+        position: absolute;
+        top: 370px;
+        left: 110px;
+        font-weight: 500;
+    }
+    #atharva{
+        /* background: saddlebrown; */
+        font-weight: 550;
+        top: 400px;
+        font-size: 50px;
+        position: absolute
+        ;
+    }
+    #end{
+        /* background-color: aqua; */
+        position: absolute;
+        bottom: 300px;
+        font-size: 24px;
+        left: 160px;
+        
+    }
+.app{
+    position: absolute;
+    top: 484px;
+    left: 200px;
+    font-size: 30px;
+}
