@@ -181,6 +181,7 @@ margin-right: 1rem;
 .box-content p{
   color: #007185; 
 }
-
-
-
+#search{
+    position: absolute;
+    left: 100px;
+}
